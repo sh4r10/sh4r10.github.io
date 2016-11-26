@@ -60,7 +60,7 @@
     }
     
     function download(){
-      window.open('hiloSrc.zip');
+      window.open('hilo/hiloSrc.zip');
     }
     
      document.onkeydown = keypress;

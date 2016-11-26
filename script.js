@@ -11,7 +11,7 @@ function ready(){
     
     
     function hilo(){
-        window.location = "hilo/hilo.html";
+        window.location = "hilo.html";
     }
     
     
