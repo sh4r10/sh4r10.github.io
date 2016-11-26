@@ -1,7 +1,7 @@
 window.onload = function ready(){
   
   document.getElementById("refresh").addEventListener("click", ready);
-  
+  document.getElementById("dnl").addEventListener("click", download);
   var random = Math.floor((Math.random() * 5) + 1);
   console.log(random);
   
