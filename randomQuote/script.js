@@ -41,7 +41,7 @@ window.onload = function ready(){
   quoter();
   
   function download(){
-    window.location("randomQuote/randomQuotesrc.zip")
+    window.open("randomQuote/randomQuotesrc.zip");
   }
   
   
