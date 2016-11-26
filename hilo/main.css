@@ -1,0 +1,15 @@
+body{
+  background-color:#eee;
+}
+.center{
+  text-align: center;
+}
+#again {
+  opacity : 0 ;
+}
+#r{
+  opacity : 0 ;
+}
+.button{
+  position: relative;
+}
