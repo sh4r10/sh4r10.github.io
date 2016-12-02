@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RandomQuote</title>
+  <title>On Off</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="randomQuote/main.css">
+  <link rel="stylesheet" href="onoff/main.css">
 </head>
 <body>
+  
   <nav class="navbar navbar-inverse" id="nav">
       <ul class="nav navbar-nav">
         <li><img alt="SH4R10" id="ico" src="img/com.png"></li>
@@ -18,15 +19,21 @@
         <li><a href="#">About SH4R10</a></li>
       </ul>
     </nav>
+  
+  
   <div class="text-center">
-  <h1 class="text-center">Random Quote Machine</h1>
-  <h2 class="text-center" id="quote"></h2>
-  <button class="btn btn-danger" id="refresh">Another Quote</button>
+    
+    <h1>Turn the bulb On/Off</h1>
+    <img id="img" class="img-responsive center-block" src="onoff/bulboff.gif"><br/>
+    <button id="btn-on" class="btn btn-info">Turn On</button>
+    <button id="btn-off" class="btn btn-danger">Turn Off</button ><br/>
+    
+    <div class="center">
+    <p class="text-center">Created by SH4R10</p>
+    <button class="btn btn-primary button " id="dnl" > Download the source code</button>
+    </div>
+    
+    <script src="onoff/script.js"></script>
   </div>
-  <div class="text-center" id="footer">
-    <p>Created By SH4R10</p>
-    <button class="btn btn-primary" id="dnl">Download the Source Code</button>
-  </div>
-  <script src="randomQuote/script.js"></script>
 </body>
 </html>

@@ -9,11 +9,14 @@
     document.getElementById("button").addEventListener("click", doWork);
     document.getElementById("dnl").addEventListener("click", download);
     
+    var tries = 1;
+    
       function keypress(e){
         //alert(e.keyCode);
         if(e.keyCode === 13){
           console.log("Enter Key Was Pressed");
           doWork();
+          tries++;
         }
         else if(e.keyCode === 82){
           playAgain();
@@ -40,6 +43,7 @@
      document.getElementById("again").style.opacity = 1;
      document.getElementById("r").style.opacity = 1;
      document.getElementById("guess").value = "";
+     document.getElementById("tries").innerHTML = "It took you "+tries+" tries";
      console.clear();
     }
     else if (guess < random){

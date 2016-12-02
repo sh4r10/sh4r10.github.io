@@ -4,10 +4,23 @@
   <meta charset="UTF-8">
   <title>HiLo</title>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="hilo/main.css">
+    <link rel="stylesheet" href="hilo/main.css">
 </head>
 <body>
+  <nav class="navbar navbar-inverse" id="nav">
+      <ul class="nav navbar-nav">
+        <li><img alt="SH4R10" id="ico" src="img/com.png"></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class=" nav navbar-nav pull-right">
+        <li><a href="#">About SH4R10</a></li>
+      </ul>
+    </nav>
   <div class="center">
+    
+     
   <h1>Welcome to the HiLo Game</h1>
   <h2>Instructions</h2>
 
@@ -19,6 +32,7 @@
   <button class="btn btn-danger" id="button" >Guess</button>
   <h1 id="label"></h1>
   <p id="r">Press R to Play Again</p>
+  <p id="tries"></p>
   <button class="btn btn-success" id="again">Play Again!</button>
   </div>
   <footer>
@@ -27,6 +41,6 @@
     <button class="btn btn-primary button " id="dnl" > Download the source code</button>
     </div>
   </footer>
-  <script src="hilo/script.js"></script>
+    <script src="hilo/script.js"></script>
 </body>
 </html>
