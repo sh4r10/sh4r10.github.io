@@ -8,7 +8,7 @@
     }
   },
   {
-    "name": "Barky",
+    "name": "Bark",
     "species" : "dog",
     "foods": {
       "likes": ["bones", "carrots"],
