@@ -1,26 +1,41 @@
-[
-  {
-    "name": "Meowsy",
-    "species" : "cat",
-    "foods": {
-      "likes": ["tuna", "catnip"],
-      "dislikes": ["ham", "zucchini"]
+{
+  people:[
+    
+    {
+      "name": "Shariq Shahbaz",
+      "alias": "Legend",
+      "age": 15,
+      "email": "codelegend27@gmail.com"
+    },
+    
+     {
+      "name": "Julian Andersson",
+      "alias": "Lil Julz",
+      "age": 15,
+      "email": "jdlvcode@gmail.com"
+    },
+    
+     {
+      "name": "Oskar Emil Madsen Zerrahn",
+      "alias": "Lil Hack",
+      "age": 15,
+      "email": "utboskmad@skola.malmo.se"
+    },
+    
+     {
+      "name": "Luiz Felipe Vellozo",
+      "alias": "Ka-Chow",
+      "age": 15,
+      "email": "utbluifer@skola.malmo.se"
+    },
+    
+     {
+      "name": "Khaled Ramadan",
+      "alias": "Sir PLease Sir",
+      "age": 15,
+      "email": "utbkhabo@skola.mamlo.se"
     }
-  },
-  {
-    "name": "Bark",
-    "species" : "dog",
-    "foods": {
-      "likes": ["bones", "carrots"],
-      "dislikes": ["tuna"]
-    }
-  },
-  {
-    "name": "Purrpaws",
-    "species" : "cat",
-    "foods": {
-      "likes": ["mice"],
-      "dislikes": ["cookies"]
-    }
-  }
-]
+    
+    ]
+
+}
