@@ -1,0 +1,62 @@
+{
+  "people":[
+    
+    {
+      "name": "Shariq Shahbaz",
+      "rank": "MBI Admin",
+      "alias": "Legend",
+      "age": 15,
+      "email": "codelegend27@gmail.com"
+    },
+    
+     {
+      "name": "Julian Andersson",
+      "rank": "MBI Admin",
+      "alias": "Lil Julz",
+      "age": 15,
+      "email": "jdlvcode@gmail.com"
+    },
+    
+     {
+      "name": "Oskar Emil Madsen Zerrahn",
+      "rank": "MBI Admin",
+      "alias": "Lil Hack",
+      "age": 15,
+      "email": "utboskmad@skola.malmo.se"
+    },
+    
+     {
+      "name": "Luiz Felipe Vellozo",
+      "rank": "MBI Moderator",
+      "alias": "Ka-Chow",
+      "age": 15,
+      "email": "utbluifer@skola.malmo.se"
+    },
+    
+     {
+      "name": "Khaled Ramadan",
+      "rank": "MBI Elite-Member",
+      "alias": "Sir Please Sir",
+      "age": 15,
+      "email": "utbkhabo@skola.mamlo.se"
+    },
+    
+     {
+      "name": "Cay Lindberg",
+      "rank": "MBI GirlPower",
+      "alias": "Phantom of the Knight",
+      "age": 15,
+      "email": "utbcaylin@skola.malmo.se"
+    },
+    {
+      "name": "Johnson Ying Yao",
+      "rank": "MBI EliteMember",
+      "alias": "Kousei",
+      "age": 15,
+      "email": "utbjohyao@skola.malmo.se"
+    }
+    
+    
+    ]
+
+}

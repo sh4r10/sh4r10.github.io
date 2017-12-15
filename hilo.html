@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HiLo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hilo/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse" id="nav">
+      <ul class="nav navbar-nav">
+        <li><img alt="SH4R10" id="ico" src="img/com.png"></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class=" nav navbar-nav pull-right">
+        <li><a href="#">About SH4R10</a></li>
+      </ul>
+    </nav>
+  <div class="center">
+    
+     
+  <h1>Welcome to the HiLo Game</h1>
+  <h2>Instructions</h2>
+
+    <p>The computer will think of a number(1-100)</p>
+    <p>You have to guess what it is</p>
+    <p>It will tell you if it is too high or too low</p>
+
+  <input type="text" placeholder="your guess" name="guess" id="guess">
+  <button class="btn btn-danger" id="button" >Guess</button>
+  <h1 id="label"></h1>
+  <p id="r">Press R to Play Again</p>
+  <p id="tries"></p>
+  <button class="btn btn-success" id="again">Play Again!</button>
+  </div>
+  <footer>
+    <div class="center">
+    <p class="text-center">Created by SH4R10</p>
+    <button class="btn btn-primary button " id="dnl" > Download the source code</button>
+    </div>
+  </footer>
+    <script src="hilo/script.js"></script>
+</body>
+</html>
