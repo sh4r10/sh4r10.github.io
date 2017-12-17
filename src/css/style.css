@@ -1,4 +1,38 @@
-body{
-  background: #fff;
-  color: #f00;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+nav{
+  height: 50px;
+  width: 100%;
+  background: #2d3d51;
+}
+
+nav ul li{
+  float: left;
+  list-style-type: none;
+  margin: 10px 16px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #1ED761;
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+
 }
