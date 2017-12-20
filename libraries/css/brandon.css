@@ -1,13 +1,69 @@
 @font-face{
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque Regular";
   src: url("https://sh4r10.github.io/fonts/brandon/BrandonRegular.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque Regular";
   src: url("https://sh4r10.github.io/fonts/brandon/BrandonRegularItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Thin";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonThin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Thin";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonThinItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Medium";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonMedium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Medium";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonMediumItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Bold";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Bold";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonBoldItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Dark";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonBlack.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Brandon Grotesque Bold";
+  src: url("https://sh4r10.github.io/fonts/brandon/BrandonBlackItalic.otf");
   font-weight: normal;
   font-style: italic;
 }
