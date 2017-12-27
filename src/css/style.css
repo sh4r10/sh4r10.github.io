@@ -8,6 +8,28 @@ html{
   font-size: 62.5%;
 }
 
+html, body{
+  background: #111;
+}
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+
+/* ===== Navigation Bar ===== */
+
 .nav{
   background-color: #232323;
   width: 100%;
@@ -20,7 +42,7 @@ html{
   width: 50px;
 }
 
-.icon{
+/* .icon{
   position: absolute;
   right: 0;
   top: 0;
@@ -30,4 +52,89 @@ html{
 
 .ham, .ham:before, .ham:after{
   background: #f7f7f7;
+} */
+
+.nav ul{
+  float: right;
+  margin-top: 1.4em;
+}
+
+.nav ul li{
+  list-style-type: none;
+  float: left;
+}
+
+.nav ul li a{
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+  text-decoration: none;
+  text-align: center;
+  margin: 1em .3em;
+  padding: .5em 1.5em;
+  transition: 100ms ease-in;
+}
+
+.nav ul li a:hover{
+  border-bottom: 3px solid #d41f00;
+}
+
+.nav ul li a.active, .nav ul li a.active:hover{
+  background: #d41f00;
+  border-radius: 290px;
+  border: none;
+}
+
+/* ===== Main Div ===== */
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main h1{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+}
+
+.main h2{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  font-style: italic;
+  color: #fff;
+}
+
+.explore{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
+  margin-top: 1em;
+  background: #d41f00;
+  padding: .8em 2em;
+  border-radius: 5px;
+}
+
+.explore:hover{
+  background: #a81e05;
+}
+
+.spin{
+  -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
 }
