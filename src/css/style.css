@@ -131,10 +131,3 @@ html, body{
 .explore:hover{
   background: #a81e05;
 }
-
-.spin{
-  -webkit-animation-name: spin;
-    -webkit-animation-duration: 4000ms;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-}
