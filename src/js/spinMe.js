@@ -8,6 +8,7 @@ var count = 1;
 
 function setAudio(source){
  aud = new Audio(source);
+ console.log("Song Loaded!");
 }
 
 function rotate(comp, speed) {
