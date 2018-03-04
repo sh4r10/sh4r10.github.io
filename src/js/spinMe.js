@@ -33,5 +33,5 @@ document.getElementById("spinMe").addEventListener("click", function() {
     aud.play();
   }
 });
-
+console.log("To output custom audio call function setAudio() with link to the audio file as parameter");
 setAudio("https://raw.githubusercontent.com/sh4r10/sh4r10.github.io/master/song.mp3");
