@@ -1,6 +1,6 @@
  //setup
     window.onload = function(){
-    var random = Math.floor((Math.random() * 100) + 1);
+    var random = Math.floor((Math.random() * 102) + 1);
     console.log(random);
     
     document.getElementById("guess").focus();
