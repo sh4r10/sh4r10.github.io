@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "Personal Portfolio",
-    "thumbnail": "https://picsum.photos/1280/720",
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,
     "tags": "Personal Portfolio Abstract"
   },
   {
     "id": "2",
     "name": "Julian Andersson",
-    "thumbnail": "https://picsum.photos/1280/720",
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,
     "tags": "Julian Andersson Material Business"
   },
   {
     "id": "3",
     "name": "Oskar Madsen",
-    "thumbnail": "https://picsum.photos/1280/720",
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,
     "tags": "Oskar Madsen Portfolio Ozzy Casual"
   },
   {
     "id": "4",
     "name": "Eternal Youth",
-    "thumbnail": "https://picsum.photos/1280/720",
-    "tags": "Personal Portfolio Material Business"
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,
+    "tags": "Personal Portfolio Material Business Eternal Youth"
   },
   {
     "id": "5",
     "name": "Unique One",
-    "thumbnail": "https://picsum.photos/1280/720",
-    "tags": "Chinese Nib Hell"
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,
+    "tags": "Chinese Nib Hell Unique ONe"
   },
   {
     "id": "6",
     "name": "Odd One",
-    "thumbnail": "https://picsum.photos/1280/720",
-    "tags": "Chewbaca Baby"
+    "thumbnail": `https://picsum.photos/id/${props.project.id}/1280/720`,,
+    "tags": "Chewbaca Baby Odd One"
   }
 ]
