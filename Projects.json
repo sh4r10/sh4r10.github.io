@@ -1,36 +1,36 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Personal Portfolio",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Personal Portfolio Abstract"
   },
   {
-    "id": "2",
+    "id": 1,
     "name": "Julian Andersson",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Julian Andersson Material Business"
   },
   {
-    "id": "3",
+    "id": 2,
     "name": "Oskar Madsen",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Oskar Madsen Portfolio Ozzy Casual"
   },
   {
-    "id": "4",
+    "id": 3,
     "name": "Eternal Youth",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Personal Portfolio Material Business Eternal Youth"
   },
   {
-    "id": "5",
+    "id": 4,
     "name": "Unique One",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Chinese Nib Hell Unique ONe"
   },
   {
-    "id": "6",
+    "id": 5,
     "name": "Odd One",
     "thumbnail": "https://picsum.photos/1280/720",
     "tags": "Chewbaca Baby Odd One"
